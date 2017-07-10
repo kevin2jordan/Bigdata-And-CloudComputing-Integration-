@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>cloudera</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+<div class="container">  
+  <form id="contact" action='/scripts/addentry.py' method="get">
+    <h3>Registration form</h3>
+    
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus name = username>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required name = uemail>
+    </fieldset>
+    <fieldset>
+      <input placeholder="choose user name " type="text" tabindex="3" required name = u_name>
+    </fieldset>
+    <fieldset>
+      <input placeholder="choose your password" type="password" tabindex="4" required u_pass name = u_pass>
+    </fieldset>
+   
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+ 
+  </form>
+</div>
+</div>
+</body>
+</html>
